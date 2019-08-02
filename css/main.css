@@ -1,0 +1,53 @@
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  z-index: 100;
+  padding: 20px;
+}
+
+header {
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/picture.jpg');
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main p {
+  padding-bottom: 50px;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
