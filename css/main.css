@@ -25,13 +25,15 @@ header {
   padding-top: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../img/picture.jpg');
+  background-image: url('../img/pic4.jpg');
   background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+header h2 {}
 
 body {
   font-family: 'Raleway', sans-serif;
