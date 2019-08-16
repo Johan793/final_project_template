@@ -7,7 +7,7 @@ Base styles:
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -42,13 +42,34 @@ header {
   justify-content: center;
 }
 
+header h1 {
+  color: white;
+}
+
 header h2 {
   color: darkblue;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
-header h1 a {}
+header a {
+  color: white;
+  text-decoration: none;
+  padding-right: 75px;
+}
+
+/* ---------------------------------
+ABOUT
+------------------------------------ */
+.about {
+  background-color: #78BF61;
+  padding: 40px 100px 175px 100px;
+  height: 100%;
+}
+
+.about h2 {
+  font-size: 35px;
+}
 
 main p {
   padding-bottom: 100px;
@@ -56,6 +77,7 @@ main p {
 
 .grid-wrap {
   display: grid;
+  grid-column-gap: 100px;
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 100px;
   padding-top: 100px;
@@ -63,19 +85,11 @@ main p {
 }
 
 /* ---------------------------------
-ABOUT
------------------------------------- */
-.about {
-  background-color: lightgreen;
-  padding: 60px 100px 60px 100px;
-}
-
-/* ---------------------------------
 RESUME
 ------------------------------------ */
 .resume {
-  background-color: lightblue;
-  padding: 60px 100px 60px 100px;
+  background-color: #73ACDD;
+  padding: 40px 100px 175px 100px;
   height: 100%;
   width: 100%;
 }
@@ -84,11 +98,15 @@ RESUME
   top: 0;
 }
 
+.ul2 {
+  list-style-position: inside;
+}
+
 /* ---------------------------------
 EXPERIENCE
 ------------------------------------ */
 .experience {
-  background-color: lightpink;
+  background-color: #909CC2;
   padding: 60px 100px 60px 100px;
   height: 100%;
 }
@@ -96,3 +114,7 @@ EXPERIENCE
 .ul {
   list-style-position: inside;
 }
+
+/* ---------------------------------
+CONTACT
+------------------------------------ */
