@@ -47,7 +47,7 @@ header h1 {
 }
 
 header h2 {
-  color: darkblue;
+  color: #2188FF;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -118,3 +118,40 @@ EXPERIENCE
 /* ---------------------------------
 CONTACT
 ------------------------------------ */
+.footer {
+  background-color: #9BC1BC;
+  padding: 60px 100px 60px 100px;
+  height: 100%;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.footer h2 {
+  font-size: 25px;
+}
+
+.contact-section {
+  margin: 0;
+}
+
+.j-line {
+  width: 38%;
+  margin-top: 0;
+}
+
+.social-footer img {
+  width: 35px;
+  height: 35px;
+  padding-left: 1% 0 1% 0;
+}
+
+.created-by {
+  color: white;
+  font-size: 12px;
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 100%;
+  bottom: 0%;
+}
